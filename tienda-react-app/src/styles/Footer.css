@@ -1,0 +1,44 @@
+  
+.footer-contenedor{
+    background-color: #cccccc5b;
+    display: grid;
+    justify-items: center;
+  }
+  .vaciar-carro,.seguir-compra{
+    flex:1
+  }
+  .vaciar-carro{
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border:none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: red;
+    color:#ffffff;
+    text-transform: capitalize;
+  }
+
+  .seguir-compra{
+    padding: 16px;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    border:none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: blue;
+    color:white;
+    text-transform: capitalize;
+  }
+  .info{
+    background-color: inherit;
+    width: 355px;;
+  }
+  .info span, h3{
+    background-color: transparent;
+  }
+  .titulo-carrito{
+    background-color: #cccccc5b;
+  }

@@ -1,0 +1,55 @@
+.hidden {
+    display: none;
+
+}
+.login-register{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 8fr;
+    text-align: center;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-items: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.btn-select{
+    background-color: lightpink;
+    height: fit-content;
+}
+.btn-select:hover{
+    cursor: pointer;
+    background-color: lightseagreen;
+}
+.login{
+    grid-column: 1/-1;
+}
+.register{
+    grid-column: 1/-1;   
+}
+.campos-register{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    height: 400px;
+    gap: 20px;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+}
+.campos-login{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 300px;
+    height: 150px;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+}
+.form-input{
+    width: 100px;
+    height: 25px;
+    text-align: center;
+}

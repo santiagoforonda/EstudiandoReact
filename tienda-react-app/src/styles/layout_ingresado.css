@@ -1,0 +1,59 @@
+.nav-ingresado{
+    display: grid;
+    background-color: #00A86B;
+    grid-template-columns: 10fr 0.5fr;
+    grid-auto-rows: 100px 1fr;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.contenido-principal{
+    height: 100vh;
+    grid-column: 1/-1;
+}
+h1{
+    background-color: inherit;
+    font-size: 45px;
+}
+.svg-bar {
+    height: 25px;
+    width: 25px;
+    background-color: inherit;
+    transition: height 0.3s, width 0.3s;
+}
+.svg-bar:hover {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.opciones-desplegadas {
+    background-color: white;
+    border: 1px solid #00A86B;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    z-index: 1;
+    grid-column: 2/-1;
+    width: 150px;
+  }
+  span{
+    background-color: inherit;
+    padding-left: 7px;
+  }
+  .opciones-barra{
+    background-color: inherit;
+    padding-left: 15px;
+  }
+  .opciones-barra:hover{
+    background-color: #00A86B;
+    cursor: pointer;
+    border: outset;
+  }
+  .svg-opciones{
+    background-color: inherit;
+    height: 25px;
+    width: 25px;
+  }

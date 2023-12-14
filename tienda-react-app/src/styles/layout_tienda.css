@@ -1,0 +1,43 @@
+.contenedor-de-paginas-lt{
+    display: grid;
+    grid-template-columns: 150px 5fr;
+    grid-template-rows: 1fr 8fr;
+}
+.nav-tienda{
+    display: grid;
+    grid-column: 1/-1;
+    background-color: #00A86B;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.contenido-principal{
+    grid-column: 2/-1;
+}
+h1{
+    width: fit-content;
+    height: fit-content;
+    background-color: inherit;
+    font-size: 45px;
+}
+.lat-bar{
+    background-color: white;
+    grid-row: 3/2;
+    width: 150px;
+}
+.tarjetas-producto {
+    width: 200px;
+    height: 250px;
+    border: solid black 3px;
+    background-color: white;
+  }
+.tarjetas-producto img{
+    height: 250px;
+    width: 200px;
+}
+.tarjetas-producto:hover{
+    box-shadow: 2px 1px 15px 10px #00A86B;
+    cursor: pointer;
+    border-style: dashed;
+}

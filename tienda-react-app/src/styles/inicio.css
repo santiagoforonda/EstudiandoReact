@@ -1,0 +1,30 @@
+.contenedor-tarjetas-marcas {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding-top: 30px;
+}
+  
+.tarjeta-marca {
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+}
+
+.tarjeta-marca:hover{
+    cursor: pointer;
+    box-shadow: 2px 1px 5px 1px;
+}
+
+.logo-carta{
+    height: 100px;
+    width: 200px;
+    background-color: inherit;
+    align-self: center;
+}
+
+
+
